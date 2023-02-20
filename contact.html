@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <title>About</title>
+</head>
+<body>
+    <!-- Navbar-->
+    <header>
+        <div class="logo">
+            <img src="img/logo.png" alt="logo">
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html" class="red">MAISON</a></li>
+                <li><a href="about.html">&Agrave; PROPOS DE</a></li>
+                <li><a href="service.html">SERVICE</a></li>
+                <li class="dropdown">
+                    <button class="dropbtn">
+                        PAGES
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="priceandplan.html">PLANS</a>
+                        <a href="ourbarbers.html">BARBERS</a>
+                        <a href="workinghours.html">HOURS</a>
+
+                    </div>
+                </li>
+                <li><a href="contact.html" class="red">CONTACT</a></li>
+                <li class="appointment">
+                    <button type="button">Rendez-vous
+                        <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                    </button>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <section class="head">
+        <div class="head-blur-layer"></div>
+        <div class="head-text">
+            <h1>A PROPOS DE</h1>
+            <p>MAISON / PAGES / <span class="red">CONTACT</span></p>
+        </div>
+    </section>
+
+    <main>
+        <section class="image-with-content contact-us">
+            <div class="text-section-container">
+
+                <div class="text-section">
+                    <p class="section__title" id="price-and-plan">
+                        Nous contacter
+                    </p>
+                    <h1>VOUS AVEZ UNE QUESTION ? CONTACTEZ NOUS S'IL VOUS PLAIT!</h1>
+                    <p>
+                        Le formulaire de contact est actuellement inactif. Obtenez un
+                        formulaire de contact fonctionnel et fonctionnel avec Ajax & PHP
+                        en quelques minutes.Copiez et collez simpliment let fichiers, ajoutez
+                        un peu de code et vous avez termine. <span class="red">Telecharger maintenant</span>.
+                    </p>
+                    <form>
+                        <div class="name-and-mail">
+                            <div class="form-elem input">
+                                <input type="text" name="name" placeholder="Votre nom">
+                            </div>
+                            <div class="form-elem input">
+                                <input type="email" name="email" id="email" placeholder="Votre e-mail">
+                            </div>
+                        </div>
+                        <div class="form-elem input">
+                            <input type="text" name="title" placeholder="Matiere">
+                        </div>
+                        <div class="form-elem textarea">
+                            <textarea name="message" id="message" placeholder="Message" cols="30" rows="4"></textarea>
+                        </div>
+                        <div class="but">
+                        <button type="submit" class="submit-button">Envoyer le message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="image-section">
+                <img src="img/map.png" alt="section image">
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-info">
+
+            <div class="get-in-touch">
+                <h3>ENTRER EN CONTACT</h3>
+                <div class="contact-info">
+                    <div class="icon">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    </div>
+                    <p>123 Street, New York, &Eacute;tats-Unis</p>
+                </div>
+                <div class="contact-info">
+                    <div class="icon">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                    </div>
+                    <p>
+                        <a href="tel:+012-345-67890">
+                            +012 345 67890
+                        </a>
+                    </p>
+                </div>
+                <div class="contact-info">
+                    <div class="icon">
+                        <i class="fa fa-envelope-open" aria-hidden="true"></i>
+                    </div>
+                    <p>
+                        <a href="mailto:info@example.com">
+                            info@example.com
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div class="quick-links">
+                <h3>LIENS RAPIDES</h3>
+                <ul>
+                    <li>> &Agrave; Propos De Nous</li>
+                    <li>> Nous Contacter</li>
+                    <li>> Nos Services</li>
+                    <li>> Termes Et Conditions</li>
+                    <li>> Soutien</li>
+                </ul>
+            </div>
+            <div class="newsletter">
+                <h3>BULLETIN</h3>
+                <div class="input">
+                    <input type="text" placeholder="Votre e-mail">
+                    <button>S'inscrire</button>
+                </div>
+                <div class="social__links">
+                    <div class="link">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                    <div class="link">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </div>
+                    <div class="link">
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                    <div class="link">
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            <p>&#169; Le <u>nom de votre site</u>. tous droits r&eacute;serv&eacute;s.</p>
+            <p>Con&ccedil;u par <u>Mujipulla</u></p>
+        </div>
+    </footer>
+
+    <!-- SCRIPT -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/kit.fontawzsome.js"></script>
+    <script src="js/fontawesome.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="https://kit.fontawesome.com/a9b8a8cd22.js" crossorigin="anonymous"></script>
+</body>
+</html>

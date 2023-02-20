@@ -1,0 +1,44 @@
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.red {
+    color: var(--red) !important;
+}
+
+
+/* section head */
+.head {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url("../img/carousel-1.jpg");
+    background-color: rgba(0, 0, 0, 0.63);
+    object-fit: cover;
+    height: 15rem;
+}
+
+.head .head-blur-layer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.head .head-text {
+    z-index: 1;
+}
+
+.head h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
